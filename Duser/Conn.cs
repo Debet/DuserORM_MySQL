@@ -4,7 +4,7 @@ namespace Duser
 {
     public static class Conn
     {
-        private static MySqlConnection _Con = new MySqlConnection("server=mysql39.unoeuro.com;database=duser_net_db;uid=duser_net;pwd=Obsengud78;");
+        private static MySqlConnection _Con = new MySqlConnection("server=HOST;database=DATABASE_NAME;uid=USERNAME;pwd=PASSWORD;");
 
         public static MySqlConnection CreateConnection()
         {
